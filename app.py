@@ -25,6 +25,7 @@ while app_run:
             morse_list.append(morse_code_chart[character])
         except KeyError:
             print("KeyError, morse chart does NOT contain the character you are trying to use")
+            break
     
     print(morse_list)
 
